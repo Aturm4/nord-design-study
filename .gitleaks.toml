@@ -1,0 +1,4 @@
+title = "Nord repository secret checks"
+
+[extend]
+useDefault = true

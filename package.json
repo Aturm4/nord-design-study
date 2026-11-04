@@ -1,0 +1,25 @@
+{
+  "name": "nord-design-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nord — local non-commercial packaging design study.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "assets:model": "node scripts/create-model.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "devDependencies": {
+    "@google/model-viewer": "^4.4.0",
+    "gsap": "^3.15.0",
+    "sharp": "^0.35.5",
+    "three": "0.183.2"
+  }
+}
